@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-# Script to build smaller pdf files from pdf files generated using images
+# Script to build smaller pdf files from pdf files that were generated out of images
 # 
 # Extract the images from the original pdf
 # Reduce the quality of the images to 10%

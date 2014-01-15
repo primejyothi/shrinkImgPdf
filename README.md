@@ -15,3 +15,9 @@ Requirements / Dependencies
 Assumptions:
  	1. Pdf files are generated out of images and do not contain text.
 	2. The required data is in the extracted jpg files and not in ppm files
+
+
+shrinkFolder.sh
+===============
+Driver script for shrinkImgPdf.sh. Shrinks all PDF[1] files present in a given folder.
+[1] Applicable only to PDF files generated out of images.

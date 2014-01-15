@@ -43,7 +43,7 @@ trap "rm -rf ${imgF}; exit 2" 1 2 3
 
 mkdir $imgF
 # Extract the images from the input pdf
-pdfimages -p -j ${inFile} ${imgF}/jj
+pdfimages -p -j "${inFile}" ${imgF}/jj
 
 # Remove the ppm files, they are not required and take up too much space.
 rm -f ${imgF}/*.ppm
@@ -83,7 +83,7 @@ then
 fi
 
 # combine the pdf files
-pdfunite ${imgF}/*.pdf ${outFile}
+pdfunite ${imgF}/*.pdf "${outFile}"
 
 # Remove the temp folder
 rm -rf -- ${imgF}

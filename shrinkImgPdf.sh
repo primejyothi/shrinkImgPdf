@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#! /usr/bin/env bash
 
 # Script to build smaller pdf files from pdf files that were generated out of images
 # 
